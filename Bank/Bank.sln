@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.Services", "..\Bank.Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.Repository", "..\Bank.Repository\Bank.Repository.csproj", "{C57708CC-0489-44C7-9AE5-7B27AB22258E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{61BF2F23-8DBB-4042-A5F2-F9F95F33A2CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{03E7EC43-1D0F-4D8E-8919-8BC1A329083F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{C57708CC-0489-44C7-9AE5-7B27AB22258E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57708CC-0489-44C7-9AE5-7B27AB22258E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57708CC-0489-44C7-9AE5-7B27AB22258E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E7EC43-1D0F-4D8E-8919-8BC1A329083F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E7EC43-1D0F-4D8E-8919-8BC1A329083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E7EC43-1D0F-4D8E-8919-8BC1A329083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E7EC43-1D0F-4D8E-8919-8BC1A329083F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2FFA4F27-4C3B-4BB2-B17D-815D35AEF1CA} = {C2C08855-86A3-4135-BB9F-4D483585A8D4}
 		{C57708CC-0489-44C7-9AE5-7B27AB22258E} = {185EFFDB-2DF4-4C33-9CE6-076C56D6FA2D}
+		{03E7EC43-1D0F-4D8E-8919-8BC1A329083F} = {61BF2F23-8DBB-4042-A5F2-F9F95F33A2CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F194028-AC95-4A51-9063-77A76EFC976F}
